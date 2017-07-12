@@ -65,6 +65,7 @@ module.exports = {
     stats: 'minimal',
     open: true,
     contentBase: path.resolve(__dirname),
-    publicPath: '/'
+    publicPath: '/',
+    openPage: ''
   }
 };
