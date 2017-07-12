@@ -1,0 +1,23 @@
+{
+  "start": "The process starts %LABEL%.",
+  "end": "The process will be finished %LABEL%.",
+  "task": [
+    "It continues with a Task %LABEL%",
+    "A Task %LABEL% will be performed afterwards.",
+    "After that a Task %LABEL% will be performed."
+  ],
+
+  "gateways": {
+    "way": "on the %LABEL% way",
+    "noAction": "no action will be performed.",
+    "defaultOperation": "a Task %LABEL% will be performed.",
+    "xor" : {
+      "start": "Depending on the decision %LABEL%, there are %WAY_COUNT% ways to continue.",
+      "end": "when one of the ways is completed"
+    },
+    "parallel": {
+      "start": "After that there will be %WAY_COUNT% simultaneous ways.",
+      "end": "when all ways are completed"
+    }
+  }
+}

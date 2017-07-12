@@ -1,0 +1,9 @@
+[
+  "bpmn:Process",
+  "bpmn:StartEvent",
+  "bpmn:EndEvent",
+  "bpmn:ParallelGateway",
+  "bpmn:Task",
+  "bpmn:SequenceFlow",
+  "bpmn:ExclusiveGateway"
+]

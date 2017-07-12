@@ -1,0 +1,21 @@
+@diagram-viewer-height: 500px;
+
+.empty-viewer {
+  margin-top: 80px;
+}
+
+.bi-head {
+  padding-bottom: 0 !important;
+}
+
+#diagram-viewer {
+  &.loaded {
+    margin-top: 10px;
+    height: @diagram-viewer-height;
+    line-height: @diagram-viewer-height;
+  }
+
+  .bjs-powered-by {
+    bottom: -200px !important;
+  }
+}
